@@ -1,4 +1,12 @@
-# Calculadora com HTML, CSS e JavaScript
-Vídeo da calculadora no canal -> https://www.youtube.com/watch?v=42TShjXR0m0
+### Hello ✌️ 
+--------
 
-<img src="https://1.bp.blogspot.com/-TfCAA8mlc6A/YCVAzmezLPI/AAAAAAAAAnY/Xn3pI1Pj7UstC4xFhlBnFWys3dkv-GbQACLcBGAsYHQ/s1280/calculadora.png">
+### 🧛 GRAPHIC CALCULATOR 🧛
+#### 🙇‍♂️ WHAT HAS CHANGED 🙇‍♂️ 
+- 🧛 compact script
+- 🧛 more minimalist and compact look with CSS
+- 🧛using TRY table 
+- 🧛 study-oriented 
+----
+### 🧟 HOW IS THE PROJECT 🧟
+![calc](https://user-images.githubusercontent.com/87165376/133906088-c965b5ad-b9e5-4f11-b548-1446161c2a3b.png)

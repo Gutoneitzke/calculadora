@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculator</title>
     <style>
         *{
             margin: 0;
             padding: 0;
         }
         .fundo{
-            background-image: linear-gradient(45deg,black, crimson);
+            background-image: linear-gradient(45deg,rgb(108, 19, 160), rgb(220, 175, 224));
             height: 100vh;
-            color: #fff;
+            color: rgb(255, 255, 255);
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
         }
         .calculadora{
             position: absolute;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(41, 29, 40, 0.8);
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            border-radius: 15px;
-            padding: 15px;
+            border-radius: 20px;
+            padding: 20px;
         }
         .botao{
             width: 50px;
@@ -31,9 +31,9 @@
             font-size: 25px;
             cursor: pointer;
             margin: 3px;
-            background-color: rgb(31,31,31);
+            background-color: rgb(22, 11, 22);
             border: none;
-            color: #fff;
+            color: rgb(234, 198, 241);
         }
         .botao:hover{
             background-color: black;
@@ -52,7 +52,6 @@
 </head>
 <body>
     <div class="fundo">
-        <h1>Gustavo Neitzke</h1>
         <div class="calculadora">
             <h1>Calculadora</h1>
             <p id="resultado"></p>
