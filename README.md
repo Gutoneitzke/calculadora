@@ -1,6 +1,8 @@
 ### Hello ✌️ 
 --------
-### 🧛 GRAPHIC CALCULATOR 🧛 
+
+### 🧛 GRAPHIC CALCULATOR 🧛
+#### 🙇‍♂️ WHAT HAS CHANGED 🙇‍♂️ 
 - 🧛 compact script
 - 🧛 more minimalist and compact look with CSS
 - 🧛using TRY table 
