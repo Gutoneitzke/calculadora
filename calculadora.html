@@ -60,20 +60,20 @@
                 <tr>
                     <td><button class="botao" onclick="clean()">C</button></td>
                     <td><button class="botao" onclick="back()"><</button></td>
-                    <td><button class="botao" onclick="insert('/')">/</button></td>
-                    <td><button class="botao" onclick="insert('*')">X</button></td>
+                    <td><button class="botao" onclick="insertOperador('/')">/</button></td>
+                    <td><button class="botao" onclick="insertOperador('*')">X</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('7')">7</button></td>
                     <td><button class="botao" onclick="insert('8')">8</button></td>
                     <td><button class="botao" onclick="insert('9')">9</button></td>
-                    <td><button class="botao" onclick="insert('-')">-</button></td>
+                    <td><button class="botao" onclick="insertOperador('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('4')">4</button></td>
                     <td><button class="botao" onclick="insert('5')">5</button></td>
                     <td><button class="botao" onclick="insert('6')">6</button></td>
-                    <td><button class="botao" onclick="insert('+')">+</button></td>
+                    <td><button class="botao" onclick="insertOperador('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('1')">1</button></td>
@@ -83,7 +83,7 @@
                 </tr>
                 <tr>
                     <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
-                    <td><button class="botao" onclick="insert('.')">.</button></td>
+                    <td><button class="botao" onclick="insertOperador('.')">.</button></td>
                 </tr>
             </table>
         </div>
@@ -115,6 +115,19 @@
                 document.getElementById('resultado').innerHTML = "Nada..."
             }
         }
+
+        function insertOperador(oper) {
+            visorInicial = document.getElementById('resultado').innerHTML
+            ultimoCaractere = document.getElementById('resultado').innerHTML.slice(-1)
+
+            if (ultimoCaractere == '*' || visor == '+' || visor == '/' || visor == '-' || visor == '.') {
+                document.getElementById('resultado').innerHTML = visorInicial
+            } else {
+                document.getElementById('resultado').innerHTML = visorInicial + oper
+            }
+        }
+
+        
     </script>
 </body>
 </html>
